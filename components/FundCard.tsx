@@ -94,4 +94,10 @@ export const FundCard: React.FC<FundCardProps> = ({ fund }) => {
       
       {/* 数据验证提示 - 仅在开发环境显示 */}
       {process.env.NODE_ENV === 'development' && hasValidData && (
-        <div className="mt-2 text-[10px] text-gray-400
+        <div className="mt-2 text-[10px] text-gray-400">
+          原始净值: {fund.latestNav}
+        </div>
+      )}
+    </div>
+  );
+};
