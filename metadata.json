@@ -1,0 +1,5 @@
+{
+  "name": "Fund Tracker Pro",
+  "description": "A dashboard to track ETF net values and cumulative growth trends daily.",
+  "requestFramePermissions": []
+}
