@@ -9,7 +9,7 @@ export const fetchFundData = async (): Promise<Fund[]> => {
   try {
     // 尝试多个可能的路径 - 根据Vite/CRA的常见配置
     const possiblePaths = [
-      './data/fund-data.json',    // 备选2 - 相对路径data目录
+      '/fund-tracker-backend/data/fund-data.json',    // 备选2 - 相对路径data目录
     ];
 
     let lastError: Error | null = null;
