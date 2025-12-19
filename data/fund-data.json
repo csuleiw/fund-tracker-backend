@@ -1,0 +1,497 @@
+[
+  {
+    "code": "588000",
+    "name": "科创50ETF",
+    "history": [
+      {
+        "date": "2025-12-01",
+        "nav": 1.404,
+        "growthRate": 0,
+        "cumulativeGrowth": 0
+      },
+      {
+        "date": "2025-12-02",
+        "nav": 1.387,
+        "growthRate": -1.21,
+        "cumulativeGrowth": -1.21
+      },
+      {
+        "date": "2025-12-03",
+        "nav": 1.375,
+        "growthRate": -0.87,
+        "cumulativeGrowth": -2.07
+      },
+      {
+        "date": "2025-12-04",
+        "nav": 1.394,
+        "growthRate": 1.38,
+        "cumulativeGrowth": -0.71
+      },
+      {
+        "date": "2025-12-05",
+        "nav": 1.394,
+        "growthRate": 0,
+        "cumulativeGrowth": -0.71
+      },
+      {
+        "date": "2025-12-08",
+        "nav": 1.42,
+        "growthRate": 1.87,
+        "cumulativeGrowth": 1.14
+      },
+      {
+        "date": "2025-12-09",
+        "nav": 1.414,
+        "growthRate": -0.42,
+        "cumulativeGrowth": 0.71
+      },
+      {
+        "date": "2025-12-10",
+        "nav": 1.415,
+        "growthRate": 0.07,
+        "cumulativeGrowth": 0.78
+      },
+      {
+        "date": "2025-12-11",
+        "nav": 1.392,
+        "growthRate": -1.63,
+        "cumulativeGrowth": -0.85
+      },
+      {
+        "date": "2025-12-12",
+        "nav": 1.418,
+        "growthRate": 1.87,
+        "cumulativeGrowth": 1
+      },
+      {
+        "date": "2025-12-15",
+        "nav": 1.389,
+        "growthRate": -2.05,
+        "cumulativeGrowth": -1.07
+      },
+      {
+        "date": "2025-12-16",
+        "nav": 1.361,
+        "growthRate": -2.02,
+        "cumulativeGrowth": -3.06
+      },
+      {
+        "date": "2025-12-17",
+        "nav": 1.396,
+        "growthRate": 2.57,
+        "cumulativeGrowth": -0.57
+      },
+      {
+        "date": "2025-12-18",
+        "nav": 1.376,
+        "growthRate": -1.43,
+        "cumulativeGrowth": -1.99
+      },
+      {
+        "date": "2025-12-19",
+        "nav": 1.386,
+        "growthRate": 0.73,
+        "cumulativeGrowth": -1.28
+      }
+    ],
+    "latestNav": 1.386,
+    "latestDate": "2025-12-19",
+    "totalGrowth": -1.28
+  },
+  {
+    "code": "515980",
+    "name": "人工智能ETF",
+    "history": [
+      {
+        "date": "2025-12-01",
+        "nav": 0.846,
+        "growthRate": 0,
+        "cumulativeGrowth": 0
+      },
+      {
+        "date": "2025-12-02",
+        "nav": 0.838,
+        "growthRate": -0.95,
+        "cumulativeGrowth": -0.95
+      },
+      {
+        "date": "2025-12-03",
+        "nav": 0.83,
+        "growthRate": -0.95,
+        "cumulativeGrowth": -1.89
+      },
+      {
+        "date": "2025-12-04",
+        "nav": 0.84,
+        "growthRate": 1.2,
+        "cumulativeGrowth": -0.71
+      },
+      {
+        "date": "2025-12-05",
+        "nav": 0.839,
+        "growthRate": -0.12,
+        "cumulativeGrowth": -0.83
+      },
+      {
+        "date": "2025-12-08",
+        "nav": 0.863,
+        "growthRate": 2.86,
+        "cumulativeGrowth": 2.01
+      },
+      {
+        "date": "2025-12-09",
+        "nav": 0.872,
+        "growthRate": 1.04,
+        "cumulativeGrowth": 3.07
+      },
+      {
+        "date": "2025-12-10",
+        "nav": 0.866,
+        "growthRate": -0.69,
+        "cumulativeGrowth": 2.36
+      },
+      {
+        "date": "2025-12-11",
+        "nav": 0.848,
+        "growthRate": -2.08,
+        "cumulativeGrowth": 0.24
+      },
+      {
+        "date": "2025-12-12",
+        "nav": 0.854,
+        "growthRate": 0.71,
+        "cumulativeGrowth": 0.95
+      },
+      {
+        "date": "2025-12-15",
+        "nav": 0.842,
+        "growthRate": -1.41,
+        "cumulativeGrowth": -0.47
+      },
+      {
+        "date": "2025-12-16",
+        "nav": 0.824,
+        "growthRate": -2.14,
+        "cumulativeGrowth": -2.6
+      },
+      {
+        "date": "2025-12-17",
+        "nav": 0.849,
+        "growthRate": 3.03,
+        "cumulativeGrowth": 0.35
+      },
+      {
+        "date": "2025-12-18",
+        "nav": 0.835,
+        "growthRate": -1.65,
+        "cumulativeGrowth": -1.3
+      },
+      {
+        "date": "2025-12-19",
+        "nav": 0.842,
+        "growthRate": 0.84,
+        "cumulativeGrowth": -0.47
+      }
+    ],
+    "latestNav": 0.842,
+    "latestDate": "2025-12-19",
+    "totalGrowth": -0.47
+  },
+  {
+    "code": "515100",
+    "name": "红利ETF",
+    "history": [
+      {
+        "date": "2025-12-01",
+        "nav": 1.579,
+        "growthRate": 0,
+        "cumulativeGrowth": 0
+      },
+      {
+        "date": "2025-12-02",
+        "nav": 1.582,
+        "growthRate": 0.19,
+        "cumulativeGrowth": 0.19
+      },
+      {
+        "date": "2025-12-03",
+        "nav": 1.584,
+        "growthRate": 0.13,
+        "cumulativeGrowth": 0.32
+      },
+      {
+        "date": "2025-12-04",
+        "nav": 1.577,
+        "growthRate": -0.44,
+        "cumulativeGrowth": -0.13
+      },
+      {
+        "date": "2025-12-05",
+        "nav": 1.578,
+        "growthRate": 0.06,
+        "cumulativeGrowth": -0.06
+      },
+      {
+        "date": "2025-12-08",
+        "nav": 1.574,
+        "growthRate": -0.25,
+        "cumulativeGrowth": -0.32
+      },
+      {
+        "date": "2025-12-09",
+        "nav": 1.562,
+        "growthRate": -0.76,
+        "cumulativeGrowth": -1.08
+      },
+      {
+        "date": "2025-12-10",
+        "nav": 1.558,
+        "growthRate": -0.26,
+        "cumulativeGrowth": -1.33
+      },
+      {
+        "date": "2025-12-11",
+        "nav": 1.548,
+        "growthRate": -0.64,
+        "cumulativeGrowth": -1.96
+      },
+      {
+        "date": "2025-12-12",
+        "nav": 1.546,
+        "growthRate": -0.13,
+        "cumulativeGrowth": -2.09
+      },
+      {
+        "date": "2025-12-15",
+        "nav": 1.548,
+        "growthRate": 0.13,
+        "cumulativeGrowth": -1.96
+      },
+      {
+        "date": "2025-12-16",
+        "nav": 1.539,
+        "growthRate": -0.58,
+        "cumulativeGrowth": -2.53
+      },
+      {
+        "date": "2025-12-17",
+        "nav": 1.543,
+        "growthRate": 0.26,
+        "cumulativeGrowth": -2.28
+      },
+      {
+        "date": "2025-12-18",
+        "nav": 1.552,
+        "growthRate": 0.58,
+        "cumulativeGrowth": -1.71
+      },
+      {
+        "date": "2025-12-19",
+        "nav": 1.554,
+        "growthRate": 0.13,
+        "cumulativeGrowth": -1.58
+      }
+    ],
+    "latestNav": 1.554,
+    "latestDate": "2025-12-19",
+    "totalGrowth": -1.58
+  },
+  {
+    "code": "515030",
+    "name": "新能源车ETF",
+    "history": [
+      {
+        "date": "2025-12-01",
+        "nav": 1.814,
+        "growthRate": 0,
+        "cumulativeGrowth": 0
+      },
+      {
+        "date": "2025-12-02",
+        "nav": 1.785,
+        "growthRate": -1.6,
+        "cumulativeGrowth": -1.6
+      },
+      {
+        "date": "2025-12-03",
+        "nav": 1.751,
+        "growthRate": -1.9,
+        "cumulativeGrowth": -3.47
+      },
+      {
+        "date": "2025-12-04",
+        "nav": 1.768,
+        "growthRate": 0.97,
+        "cumulativeGrowth": -2.54
+      },
+      {
+        "date": "2025-12-05",
+        "nav": 1.778,
+        "growthRate": 0.57,
+        "cumulativeGrowth": -1.98
+      },
+      {
+        "date": "2025-12-08",
+        "nav": 1.819,
+        "growthRate": 2.31,
+        "cumulativeGrowth": 0.28
+      },
+      {
+        "date": "2025-12-09",
+        "nav": 1.794,
+        "growthRate": -1.37,
+        "cumulativeGrowth": -1.1
+      },
+      {
+        "date": "2025-12-10",
+        "nav": 1.802,
+        "growthRate": 0.45,
+        "cumulativeGrowth": -0.66
+      },
+      {
+        "date": "2025-12-11",
+        "nav": 1.79,
+        "growthRate": -0.67,
+        "cumulativeGrowth": -1.32
+      },
+      {
+        "date": "2025-12-12",
+        "nav": 1.781,
+        "growthRate": -0.5,
+        "cumulativeGrowth": -1.82
+      },
+      {
+        "date": "2025-12-15",
+        "nav": 1.744,
+        "growthRate": -2.08,
+        "cumulativeGrowth": -3.86
+      },
+      {
+        "date": "2025-12-16",
+        "nav": 1.716,
+        "growthRate": -1.61,
+        "cumulativeGrowth": -5.4
+      },
+      {
+        "date": "2025-12-17",
+        "nav": 1.769,
+        "growthRate": 3.09,
+        "cumulativeGrowth": -2.48
+      },
+      {
+        "date": "2025-12-18",
+        "nav": 1.737,
+        "growthRate": -1.81,
+        "cumulativeGrowth": -4.24
+      },
+      {
+        "date": "2025-12-19",
+        "nav": 1.75,
+        "growthRate": 0.75,
+        "cumulativeGrowth": -3.53
+      }
+    ],
+    "latestNav": 1.75,
+    "latestDate": "2025-12-19",
+    "totalGrowth": -3.53
+  },
+  {
+    "code": "159338",
+    "name": "信创ETF",
+    "history": [
+      {
+        "date": "2025-12-01",
+        "nav": 1.163,
+        "growthRate": 0,
+        "cumulativeGrowth": 0
+      },
+      {
+        "date": "2025-12-02",
+        "nav": 1.156,
+        "growthRate": -0.6,
+        "cumulativeGrowth": -0.6
+      },
+      {
+        "date": "2025-12-03",
+        "nav": 1.15,
+        "growthRate": -0.52,
+        "cumulativeGrowth": -1.12
+      },
+      {
+        "date": "2025-12-04",
+        "nav": 1.154,
+        "growthRate": 0.35,
+        "cumulativeGrowth": -0.77
+      },
+      {
+        "date": "2025-12-05",
+        "nav": 1.167,
+        "growthRate": 1.13,
+        "cumulativeGrowth": 0.34
+      },
+      {
+        "date": "2025-12-08",
+        "nav": 1.174,
+        "growthRate": 0.6,
+        "cumulativeGrowth": 0.95
+      },
+      {
+        "date": "2025-12-09",
+        "nav": 1.168,
+        "growthRate": -0.51,
+        "cumulativeGrowth": 0.43
+      },
+      {
+        "date": "2025-12-10",
+        "nav": 1.169,
+        "growthRate": 0.09,
+        "cumulativeGrowth": 0.52
+      },
+      {
+        "date": "2025-12-11",
+        "nav": 1.159,
+        "growthRate": -0.86,
+        "cumulativeGrowth": -0.34
+      },
+      {
+        "date": "2025-12-12",
+        "nav": 1.168,
+        "growthRate": 0.78,
+        "cumulativeGrowth": 0.43
+      },
+      {
+        "date": "2025-12-15",
+        "nav": 1.16,
+        "growthRate": -0.68,
+        "cumulativeGrowth": -0.26
+      },
+      {
+        "date": "2025-12-16",
+        "nav": 1.146,
+        "growthRate": -1.21,
+        "cumulativeGrowth": -1.46
+      },
+      {
+        "date": "2025-12-17",
+        "nav": 1.169,
+        "growthRate": 2.01,
+        "cumulativeGrowth": 0.52
+      },
+      {
+        "date": "2025-12-18",
+        "nav": 1.161,
+        "growthRate": -0.68,
+        "cumulativeGrowth": -0.17
+      },
+      {
+        "date": "2025-12-19",
+        "nav": 1.171,
+        "growthRate": 0.86,
+        "cumulativeGrowth": 0.69
+      }
+    ],
+    "latestNav": 1.171,
+    "latestDate": "2025-12-19",
+    "totalGrowth": 0.69
+  }
+]
