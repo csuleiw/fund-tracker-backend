@@ -73,18 +73,18 @@ export const fetchFundData = async (): Promise<Fund[]> => {
  * Fallback: Generates simulated data if static file fetch fails
  * (仅用于本地开发初期或网络错误时的兜底展示)
  */
-const generateMockData = (): Fund[] => {
+//const generateMockData = (): Fund[] => {
   // 代码保持不变...
-  const getDatesInRange = (startDate: Date, endDate: Date) => {
-    const date = new Date(startDate.getTime());
-    const dates = [];
-    while (date <= endDate) {
-      const day = date.getDay(); // 跳过周末 (0=周日, 6=周六)
-      if (day !== 0 && day !== 6) dates.push(new Date(date));
-      date.setDate(date.getDate() + 1);
-    }
-    return dates;
-  };
+//  const getDatesInRange = (startDate: Date, endDate: Date) => {
+  //  const date = new Date(startDate.getTime());
+   // const dates = [];
+  //  while (date <= endDate) {
+  //    const day = date.getDay(); // 跳过周末 (0=周日, 6=周六)
+ //     if (day !== 0 && day !== 6) dates.push(new Date(date));
+ //     date.setDate(date.getDate() + 1);
+  //  }
+ //   return dates;
+//  };
 
   const formatDate = (date: Date) => date.toISOString().split('T')[0];
   const start = new Date(BASELINE_DATE);
