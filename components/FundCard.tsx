@@ -1,69 +1,60 @@
 import React from 'react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ReferenceLine} from 'recharts';
 import { Fund } from '../types';
-import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
 
-interface FundCardProps {
-  fund: Fund;
+interface FundChartProps {
+  funds: Fund[];
 }
 
-export const FundCard: React.FC<FundCardProps> = ({ fund }) => {
-  const isPositive = fund.totalGrowth > 0;
-  const isZero = fund.totalGrowth === 0;
+// Color palette for lines
+const COLORS = [
+  '#2563eb', // Blue
+  '#db2777', // Pink
+  '#d97706', // Amber
+  '#7c3aed', // Violet
+  '#059669'  // Emerald
+];
 
-  // Chinese market colors: Red = Up, Green = Down
-  const colorClass = isPositive 
-    ? 'text-market-up' 
-    : isZero 
-      ? 'text-gray-500' 
-      : 'text-market-down';
+export const FundChart: React.FC<FundChartProps> = ({ funds }) => {
+  if (funds.length === 0) return null;
+  
+  // 1. 严格按原始数据收集唯一日期，不做任何转换
+  const allDates = Array.from(
+    new Set(
+      funds
+        .flatMap(fund => fund.history.map(record => record.date))
+        .filter(date => date) // 过滤无效日期
+    )
+  ).sort();
 
-  const bgClass = isPositive
-    ? 'bg-red-50'
-    : isZero
-      ? 'bg-gray-50'
-      : 'bg-green-50';
+  // 2. 严格使用原始数据构建图表数据，不做任何计算
+  const chartData = allDates.map(date => {
+    const entry: Record<string, any> = { date }; // 使用更严格的类型
+    
+    funds.forEach(fund => {
+      // 严格查找匹配日期的数据，不进行任何插值或平均
+      const dayData = fund.history.find(h => h.date === date && h.cumulativeGrowth !== undefined && h.cumulativeGrowth !== null);
+      
+      if (dayData) {
+        // 直接使用原始累积增长率，不做任何转换
+        entry[fund.name] = dayData.cumulativeGrowth;
+      }
+      // 如果找不到精确匹配的数据点，不添加该基金此日期的值（保持undefined）
+    });
+    
+    return entry;
+  });
 
-  const borderClass = isPositive
-    ? 'border-l-4 border-market-up'
-    : isZero
-      ? 'border-l-4 border-gray-400'
-      : 'border-l-4 border-market-down';
+  // 调试：在开发环境记录数据形状
+  if (process.env.NODE_ENV === 'development') {
+    console.log('[FundChart] 原始图表数据形状:', {
+      dateCount: allDates.length,
+      fundCount: funds.length,
+      firstDate: allDates[0],
+      lastDate: allDates[allDates.length - 1],
+      sampleDataPoint: chartData[chartData.length - 1]
+    });
+  }
 
   return (
-    <div className={`bg-white rounded-lg shadow-sm p-5 hover:shadow-md transition-shadow ${borderClass}`}>
-      <div className="flex justify-between items-start mb-2">
-        <div>
-          <h3 className="text-lg font-bold text-gray-800">{fund.name}</h3>
-          <span className="text-xs text-gray-500 font-mono bg-gray-100 px-1.5 py-0.5 rounded">
-            {fund.code}
-          </span>
-        </div>
-        <div className={`p-2 rounded-full ${bgClass}`}>
-          {isPositive ? (
-            <TrendingUp size={20} className={colorClass} />
-          ) : isZero ? (
-            <Minus size={20} className={colorClass} />
-          ) : (
-            <TrendingDown size={20} className={colorClass} />
-          )}
-        </div>
-      </div>
-
-      <div className="mt-4 flex justify-between items-end">
-        <div>
-          {/* 修改点 1: 文案改为“最新收盘价”，因为 ETF 实际上是场内交易价格 */}
-          <p className="text-xs text-gray-500 mb-1">最新收盘价 ({fund.latestDate})</p>
-          
-          {/* 修改点 2: ETF 交易价格通常保留 3 位小数 */}
-          <p className="text-2xl font-semibold text-gray-900">{fund.latestNav.toFixed(3)}</p>
-        </div>
-        <div className="text-right">
-          <p className="text-xs text-gray-500 mb-1">区间涨幅</p>
-          <p className={`text-xl font-bold ${colorClass}`}>
-            {isPositive ? '+' : ''}{fund.totalGrowth.toFixed(2)}%
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-};
+    <div className=
