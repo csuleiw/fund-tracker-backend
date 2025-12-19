@@ -3,7 +3,7 @@ name: Update Fund Data
 on:
   schedule:
     # 每天 UTC 08:00 运行 (即北京时间 16:00，A股收盘后)
-    - cron: '0 8 * * *'
+    - cron: '15 9 * * *'  # 分钟 小时 日 月 周几
   workflow_dispatch: # 允许在网页上手动点击按钮触发
 
 permissions:
