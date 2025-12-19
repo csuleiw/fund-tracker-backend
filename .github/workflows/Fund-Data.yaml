@@ -1,0 +1,35 @@
+name: Update Fund Data
+
+on:
+  schedule:
+    # 每天 UTC 08:00 运行 (即北京时间 16:00，A股收盘后)
+    - cron: '0 8 * * *'
+  workflow_dispatch: # 允许在网页上手动点击按钮触发
+
+permissions:
+  contents: write # 必须赋予写权限才能提交代码
+
+jobs:
+  build-and-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Fetch Data
+        run: npx tsx scripts/fetch-funds.ts
+
+      - name: Commit and Push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update fund data [skip ci]"
+          file_pattern: "public/data/fund-data.json"
