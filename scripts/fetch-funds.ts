@@ -39,6 +39,7 @@ const __dirname = path.dirname(__filename);
 
 // 输出路径: public/data/fund-data.json
 const OUTPUT_FILE = path.join(__dirname, '../public/data/fund-data.json');
+const OUTPUT_FILE = path.join(__dirname, '../data/fund-data.json');
 
 const getSecId = (code: string) => {
   if (code.startsWith('5') || code.startsWith('6')) return `1.${code}`;
