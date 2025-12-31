@@ -5,9 +5,7 @@ import { fileURLToPath } from 'url';
 
 // --- 为了避免引用路径错误，我们将配置内联在此处 ---
 // 这样脚本就是完全独立的，不再依赖 src 目录，修复所有 ERR_MODULE_NOT_FOUND 问题
-
 const BASELINE_DATE = '2025-12-01';
-
 const TRACKED_FUNDS = [
   { code: '588000', name: '科创50ETF' },
   { code: '515980', name: '人工智能ETF' },
@@ -31,15 +29,16 @@ interface Fund {
   latestDate: string;
   totalGrowth: number;
 }
-// ----------------------------------------------------
 
+// ----------------------------------------------------
 // 获取 __dirname
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// 输出路径: public/data/fund-data.json
+// 主输出路径: public/data/fund-data.json
 const OUTPUT_FILE = path.join(__dirname, '../public/data/fund-data.json');
-const OUTPUT_FILE = path.join(__dirname, '../data/fund-data.json');
+// 新增的第二个输出路径
+const SECONDARY_OUTPUT_FILE = path.join(__dirname, '../data/fund-data.json');
 
 const getSecId = (code: string) => {
   if (code.startsWith('5') || code.startsWith('6')) return `1.${code}`;
@@ -48,10 +47,9 @@ const getSecId = (code: string) => {
 
 const run = async () => {
   console.log(`[${new Date().toISOString()}] 开始执行基金数据抓取...`);
-  
   const results: Fund[] = [];
   const apiStartDate = BASELINE_DATE.replace(/-/g, '');
-
+  
   for (const fundConfig of TRACKED_FUNDS) {
     try {
       console.log(`正在抓取: ${fundConfig.name} (${fundConfig.code})...`);
@@ -67,32 +65,28 @@ const run = async () => {
           beg: apiStartDate,
           end: '20991231'
         },
-        timeout: 10000 
+        timeout: 10000
       });
-
+      
       const data = response.data;
-
       if (!data || !data.data || !data.data.klines || data.data.klines.length === 0) {
-        console.warn(`⚠️  无数据返回: ${fundConfig.name} (${fundConfig.code})`);
+        console.warn(`⚠️ 无数据返回: ${fundConfig.name} (${fundConfig.code})`);
         continue;
       }
-
+      
       const rawKlines: string[] = data.data.klines;
-
       const parsedHistory = rawKlines.map(item => {
         const [date, priceStr] = item.split(',');
         return { date, nav: parseFloat(priceStr) };
       });
-
-      if (parsedHistory.length === 0) continue;
-
-      const baseNav = parsedHistory[0].nav;
       
+      if (parsedHistory.length === 0) continue;
+      
+      const baseNav = parsedHistory[0].nav;
       const history: DailyData[] = parsedHistory.map((day, index) => {
         const prevNav = index > 0 ? parsedHistory[index - 1].nav : baseNav;
         const growthRate = ((day.nav - prevNav) / prevNav) * 100;
         const cumulativeGrowth = ((day.nav - baseNav) / baseNav) * 100;
-
         return {
           date: day.date,
           nav: day.nav,
@@ -100,9 +94,8 @@ const run = async () => {
           cumulativeGrowth: parseFloat(cumulativeGrowth.toFixed(2))
         };
       });
-
+      
       const latest = history[history.length - 1];
-
       results.push({
         code: fundConfig.code,
         name: fundConfig.name,
@@ -111,16 +104,23 @@ const run = async () => {
         latestDate: latest.date,
         totalGrowth: latest.cumulativeGrowth || 0
       });
-
     } catch (error: any) {
       console.error(`❌ 抓取失败 ${fundConfig.name}:`, error.message);
     }
   }
-
+  
   try {
+    // 确保两个输出目录都存在
     await fs.ensureDir(path.dirname(OUTPUT_FILE));
+    await fs.ensureDir(path.dirname(SECONDARY_OUTPUT_FILE));
+    
+    // 写入两个文件
     await fs.writeJson(OUTPUT_FILE, results, { spaces: 2 });
-    console.log(`\n✅ 数据更新成功! 已保存至: ${OUTPUT_FILE}`);
+    await fs.writeJson(SECONDARY_OUTPUT_FILE, results, { spaces: 2 });
+    
+    console.log(`\n✅ 数据更新成功! 已保存至:`);
+    console.log(`   - ${OUTPUT_FILE}`);
+    console.log(`   - ${SECONDARY_OUTPUT_FILE}`);
   } catch (err) {
     console.error('❌ 文件写入失败:', err);
     process.exit(1);
