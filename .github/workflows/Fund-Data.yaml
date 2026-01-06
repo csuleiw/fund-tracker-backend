@@ -32,4 +32,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update fund data [skip ci]"
-          file_pattern: "public/data/fund-data.json"
+          # 修改处：增加了 data/fund-data.json，用空格分隔两个路径
+          file_pattern: "public/data/fund-data.json data/fund-data.json"
