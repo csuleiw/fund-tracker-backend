@@ -146,11 +146,17 @@
         "nav": 1.479,
         "growthRate": 4.38,
         "cumulativeGrowth": 5.34
+      },
+      {
+        "date": "2026-01-06",
+        "nav": 1.505,
+        "growthRate": 1.76,
+        "cumulativeGrowth": 7.19
       }
     ],
-    "latestNav": 1.479,
-    "latestDate": "2026-01-05",
-    "totalGrowth": 5.34
+    "latestNav": 1.505,
+    "latestDate": "2026-01-06",
+    "totalGrowth": 7.19
   },
   {
     "code": "515980",
@@ -299,11 +305,17 @@
         "nav": 0.9,
         "growthRate": 3.81,
         "cumulativeGrowth": 6.38
+      },
+      {
+        "date": "2026-01-06",
+        "nav": 0.906,
+        "growthRate": 0.67,
+        "cumulativeGrowth": 7.09
       }
     ],
-    "latestNav": 0.9,
-    "latestDate": "2026-01-05",
-    "totalGrowth": 6.38
+    "latestNav": 0.906,
+    "latestDate": "2026-01-06",
+    "totalGrowth": 7.09
   },
   {
     "code": "515100",
@@ -452,11 +464,17 @@
         "nav": 1.433,
         "growthRate": 0.21,
         "cumulativeGrowth": -2.78
+      },
+      {
+        "date": "2026-01-06",
+        "nav": 1.438,
+        "growthRate": 0.35,
+        "cumulativeGrowth": -2.44
       }
     ],
-    "latestNav": 1.433,
-    "latestDate": "2026-01-05",
-    "totalGrowth": -2.78
+    "latestNav": 1.438,
+    "latestDate": "2026-01-06",
+    "totalGrowth": -2.44
   },
   {
     "code": "515030",
@@ -605,11 +623,17 @@
         "nav": 1.914,
         "growthRate": 2.35,
         "cumulativeGrowth": 5.51
+      },
+      {
+        "date": "2026-01-06",
+        "nav": 1.949,
+        "growthRate": 1.83,
+        "cumulativeGrowth": 7.44
       }
     ],
-    "latestNav": 1.914,
-    "latestDate": "2026-01-05",
-    "totalGrowth": 5.51
+    "latestNav": 1.949,
+    "latestDate": "2026-01-06",
+    "totalGrowth": 7.44
   },
   {
     "code": "159338",
@@ -758,10 +782,16 @@
         "nav": 1.219,
         "growthRate": 2.09,
         "cumulativeGrowth": 4.82
+      },
+      {
+        "date": "2026-01-06",
+        "nav": 1.241,
+        "growthRate": 1.8,
+        "cumulativeGrowth": 6.71
       }
     ],
-    "latestNav": 1.219,
-    "latestDate": "2026-01-05",
-    "totalGrowth": 4.82
+    "latestNav": 1.241,
+    "latestDate": "2026-01-06",
+    "totalGrowth": 6.71
   }
 ]

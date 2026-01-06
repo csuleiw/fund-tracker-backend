@@ -89,14 +89,74 @@
       },
       {
         "date": "2025-12-19",
-        "nav": 1.386,
-        "growthRate": 0.73,
-        "cumulativeGrowth": -1.28
+        "nav": 1.38,
+        "growthRate": 0.29,
+        "cumulativeGrowth": -1.71
+      },
+      {
+        "date": "2025-12-22",
+        "nav": 1.405,
+        "growthRate": 1.81,
+        "cumulativeGrowth": 0.07
+      },
+      {
+        "date": "2025-12-23",
+        "nav": 1.41,
+        "growthRate": 0.36,
+        "cumulativeGrowth": 0.43
+      },
+      {
+        "date": "2025-12-24",
+        "nav": 1.423,
+        "growthRate": 0.92,
+        "cumulativeGrowth": 1.35
+      },
+      {
+        "date": "2025-12-25",
+        "nav": 1.422,
+        "growthRate": -0.07,
+        "cumulativeGrowth": 1.28
+      },
+      {
+        "date": "2025-12-26",
+        "nav": 1.419,
+        "growthRate": -0.21,
+        "cumulativeGrowth": 1.07
+      },
+      {
+        "date": "2025-12-29",
+        "nav": 1.417,
+        "growthRate": -0.14,
+        "cumulativeGrowth": 0.93
+      },
+      {
+        "date": "2025-12-30",
+        "nav": 1.433,
+        "growthRate": 1.13,
+        "cumulativeGrowth": 2.07
+      },
+      {
+        "date": "2025-12-31",
+        "nav": 1.417,
+        "growthRate": -1.12,
+        "cumulativeGrowth": 0.93
+      },
+      {
+        "date": "2026-01-05",
+        "nav": 1.479,
+        "growthRate": 4.38,
+        "cumulativeGrowth": 5.34
+      },
+      {
+        "date": "2026-01-06",
+        "nav": 1.505,
+        "growthRate": 1.76,
+        "cumulativeGrowth": 7.19
       }
     ],
-    "latestNav": 1.386,
-    "latestDate": "2025-12-19",
-    "totalGrowth": -1.28
+    "latestNav": 1.505,
+    "latestDate": "2026-01-06",
+    "totalGrowth": 7.19
   },
   {
     "code": "515980",
@@ -188,14 +248,74 @@
       },
       {
         "date": "2025-12-19",
-        "nav": 0.842,
-        "growthRate": 0.84,
-        "cumulativeGrowth": -0.47
+        "nav": 0.836,
+        "growthRate": 0.12,
+        "cumulativeGrowth": -1.18
+      },
+      {
+        "date": "2025-12-22",
+        "nav": 0.852,
+        "growthRate": 1.91,
+        "cumulativeGrowth": 0.71
+      },
+      {
+        "date": "2025-12-23",
+        "nav": 0.852,
+        "growthRate": 0,
+        "cumulativeGrowth": 0.71
+      },
+      {
+        "date": "2025-12-24",
+        "nav": 0.857,
+        "growthRate": 0.59,
+        "cumulativeGrowth": 1.3
+      },
+      {
+        "date": "2025-12-25",
+        "nav": 0.858,
+        "growthRate": 0.12,
+        "cumulativeGrowth": 1.42
+      },
+      {
+        "date": "2025-12-26",
+        "nav": 0.856,
+        "growthRate": -0.23,
+        "cumulativeGrowth": 1.18
+      },
+      {
+        "date": "2025-12-29",
+        "nav": 0.862,
+        "growthRate": 0.7,
+        "cumulativeGrowth": 1.89
+      },
+      {
+        "date": "2025-12-30",
+        "nav": 0.873,
+        "growthRate": 1.28,
+        "cumulativeGrowth": 3.19
+      },
+      {
+        "date": "2025-12-31",
+        "nav": 0.867,
+        "growthRate": -0.69,
+        "cumulativeGrowth": 2.48
+      },
+      {
+        "date": "2026-01-05",
+        "nav": 0.9,
+        "growthRate": 3.81,
+        "cumulativeGrowth": 6.38
+      },
+      {
+        "date": "2026-01-06",
+        "nav": 0.906,
+        "growthRate": 0.67,
+        "cumulativeGrowth": 7.09
       }
     ],
-    "latestNav": 0.842,
-    "latestDate": "2025-12-19",
-    "totalGrowth": -0.47
+    "latestNav": 0.906,
+    "latestDate": "2026-01-06",
+    "totalGrowth": 7.09
   },
   {
     "code": "515100",
@@ -203,98 +323,158 @@
     "history": [
       {
         "date": "2025-12-01",
-        "nav": 1.579,
+        "nav": 1.474,
         "growthRate": 0,
         "cumulativeGrowth": 0
       },
       {
         "date": "2025-12-02",
-        "nav": 1.582,
-        "growthRate": 0.19,
-        "cumulativeGrowth": 0.19
+        "nav": 1.477,
+        "growthRate": 0.2,
+        "cumulativeGrowth": 0.2
       },
       {
         "date": "2025-12-03",
-        "nav": 1.584,
-        "growthRate": 0.13,
-        "cumulativeGrowth": 0.32
+        "nav": 1.479,
+        "growthRate": 0.14,
+        "cumulativeGrowth": 0.34
       },
       {
         "date": "2025-12-04",
-        "nav": 1.577,
-        "growthRate": -0.44,
-        "cumulativeGrowth": -0.13
+        "nav": 1.472,
+        "growthRate": -0.47,
+        "cumulativeGrowth": -0.14
       },
       {
         "date": "2025-12-05",
-        "nav": 1.578,
-        "growthRate": 0.06,
-        "cumulativeGrowth": -0.06
+        "nav": 1.473,
+        "growthRate": 0.07,
+        "cumulativeGrowth": -0.07
       },
       {
         "date": "2025-12-08",
-        "nav": 1.574,
-        "growthRate": -0.25,
-        "cumulativeGrowth": -0.32
+        "nav": 1.469,
+        "growthRate": -0.27,
+        "cumulativeGrowth": -0.34
       },
       {
         "date": "2025-12-09",
-        "nav": 1.562,
-        "growthRate": -0.76,
-        "cumulativeGrowth": -1.08
+        "nav": 1.457,
+        "growthRate": -0.82,
+        "cumulativeGrowth": -1.15
       },
       {
         "date": "2025-12-10",
-        "nav": 1.558,
-        "growthRate": -0.26,
-        "cumulativeGrowth": -1.33
+        "nav": 1.453,
+        "growthRate": -0.27,
+        "cumulativeGrowth": -1.42
       },
       {
         "date": "2025-12-11",
-        "nav": 1.548,
-        "growthRate": -0.64,
-        "cumulativeGrowth": -1.96
+        "nav": 1.443,
+        "growthRate": -0.69,
+        "cumulativeGrowth": -2.1
       },
       {
         "date": "2025-12-12",
-        "nav": 1.546,
-        "growthRate": -0.13,
-        "cumulativeGrowth": -2.09
+        "nav": 1.441,
+        "growthRate": -0.14,
+        "cumulativeGrowth": -2.24
       },
       {
         "date": "2025-12-15",
-        "nav": 1.548,
-        "growthRate": 0.13,
-        "cumulativeGrowth": -1.96
+        "nav": 1.443,
+        "growthRate": 0.14,
+        "cumulativeGrowth": -2.1
       },
       {
         "date": "2025-12-16",
-        "nav": 1.539,
-        "growthRate": -0.58,
-        "cumulativeGrowth": -2.53
+        "nav": 1.434,
+        "growthRate": -0.62,
+        "cumulativeGrowth": -2.71
       },
       {
         "date": "2025-12-17",
-        "nav": 1.543,
-        "growthRate": 0.26,
-        "cumulativeGrowth": -2.28
+        "nav": 1.438,
+        "growthRate": 0.28,
+        "cumulativeGrowth": -2.44
       },
       {
         "date": "2025-12-18",
-        "nav": 1.552,
-        "growthRate": 0.58,
-        "cumulativeGrowth": -1.71
+        "nav": 1.447,
+        "growthRate": 0.63,
+        "cumulativeGrowth": -1.83
       },
       {
         "date": "2025-12-19",
-        "nav": 1.554,
-        "growthRate": 0.13,
-        "cumulativeGrowth": -1.58
+        "nav": 1.446,
+        "growthRate": -0.07,
+        "cumulativeGrowth": -1.9
+      },
+      {
+        "date": "2025-12-22",
+        "nav": 1.438,
+        "growthRate": -0.55,
+        "cumulativeGrowth": -2.44
+      },
+      {
+        "date": "2025-12-23",
+        "nav": 1.437,
+        "growthRate": -0.07,
+        "cumulativeGrowth": -2.51
+      },
+      {
+        "date": "2025-12-24",
+        "nav": 1.44,
+        "growthRate": 0.21,
+        "cumulativeGrowth": -2.31
+      },
+      {
+        "date": "2025-12-25",
+        "nav": 1.445,
+        "growthRate": 0.35,
+        "cumulativeGrowth": -1.97
+      },
+      {
+        "date": "2025-12-26",
+        "nav": 1.447,
+        "growthRate": 0.14,
+        "cumulativeGrowth": -1.83
+      },
+      {
+        "date": "2025-12-29",
+        "nav": 1.438,
+        "growthRate": -0.62,
+        "cumulativeGrowth": -2.44
+      },
+      {
+        "date": "2025-12-30",
+        "nav": 1.433,
+        "growthRate": -0.35,
+        "cumulativeGrowth": -2.78
+      },
+      {
+        "date": "2025-12-31",
+        "nav": 1.43,
+        "growthRate": -0.21,
+        "cumulativeGrowth": -2.99
+      },
+      {
+        "date": "2026-01-05",
+        "nav": 1.433,
+        "growthRate": 0.21,
+        "cumulativeGrowth": -2.78
+      },
+      {
+        "date": "2026-01-06",
+        "nav": 1.438,
+        "growthRate": 0.35,
+        "cumulativeGrowth": -2.44
       }
     ],
-    "latestNav": 1.554,
-    "latestDate": "2025-12-19",
-    "totalGrowth": -1.58
+    "latestNav": 1.438,
+    "latestDate": "2026-01-06",
+    "totalGrowth": -2.44
   },
   {
     "code": "515030",
@@ -386,14 +566,74 @@
       },
       {
         "date": "2025-12-19",
-        "nav": 1.75,
-        "growthRate": 0.75,
-        "cumulativeGrowth": -3.53
+        "nav": 1.756,
+        "growthRate": 1.09,
+        "cumulativeGrowth": -3.2
+      },
+      {
+        "date": "2025-12-22",
+        "nav": 1.785,
+        "growthRate": 1.65,
+        "cumulativeGrowth": -1.6
+      },
+      {
+        "date": "2025-12-23",
+        "nav": 1.818,
+        "growthRate": 1.85,
+        "cumulativeGrowth": 0.22
+      },
+      {
+        "date": "2025-12-24",
+        "nav": 1.833,
+        "growthRate": 0.83,
+        "cumulativeGrowth": 1.05
+      },
+      {
+        "date": "2025-12-25",
+        "nav": 1.84,
+        "growthRate": 0.38,
+        "cumulativeGrowth": 1.43
+      },
+      {
+        "date": "2025-12-26",
+        "nav": 1.882,
+        "growthRate": 2.28,
+        "cumulativeGrowth": 3.75
+      },
+      {
+        "date": "2025-12-29",
+        "nav": 1.849,
+        "growthRate": -1.75,
+        "cumulativeGrowth": 1.93
+      },
+      {
+        "date": "2025-12-30",
+        "nav": 1.881,
+        "growthRate": 1.73,
+        "cumulativeGrowth": 3.69
+      },
+      {
+        "date": "2025-12-31",
+        "nav": 1.87,
+        "growthRate": -0.58,
+        "cumulativeGrowth": 3.09
+      },
+      {
+        "date": "2026-01-05",
+        "nav": 1.914,
+        "growthRate": 2.35,
+        "cumulativeGrowth": 5.51
+      },
+      {
+        "date": "2026-01-06",
+        "nav": 1.949,
+        "growthRate": 1.83,
+        "cumulativeGrowth": 7.44
       }
     ],
-    "latestNav": 1.75,
-    "latestDate": "2025-12-19",
-    "totalGrowth": -3.53
+    "latestNav": 1.949,
+    "latestDate": "2026-01-06",
+    "totalGrowth": 7.44
   },
   {
     "code": "159338",
@@ -485,13 +725,73 @@
       },
       {
         "date": "2025-12-19",
-        "nav": 1.171,
-        "growthRate": 0.86,
-        "cumulativeGrowth": 0.69
+        "nav": 1.169,
+        "growthRate": 0.69,
+        "cumulativeGrowth": 0.52
+      },
+      {
+        "date": "2025-12-22",
+        "nav": 1.181,
+        "growthRate": 1.03,
+        "cumulativeGrowth": 1.55
+      },
+      {
+        "date": "2025-12-23",
+        "nav": 1.185,
+        "growthRate": 0.34,
+        "cumulativeGrowth": 1.89
+      },
+      {
+        "date": "2025-12-24",
+        "nav": 1.191,
+        "growthRate": 0.51,
+        "cumulativeGrowth": 2.41
+      },
+      {
+        "date": "2025-12-25",
+        "nav": 1.193,
+        "growthRate": 0.17,
+        "cumulativeGrowth": 2.58
+      },
+      {
+        "date": "2025-12-26",
+        "nav": 1.2,
+        "growthRate": 0.59,
+        "cumulativeGrowth": 3.18
+      },
+      {
+        "date": "2025-12-29",
+        "nav": 1.195,
+        "growthRate": -0.42,
+        "cumulativeGrowth": 2.75
+      },
+      {
+        "date": "2025-12-30",
+        "nav": 1.198,
+        "growthRate": 0.25,
+        "cumulativeGrowth": 3.01
+      },
+      {
+        "date": "2025-12-31",
+        "nav": 1.194,
+        "growthRate": -0.33,
+        "cumulativeGrowth": 2.67
+      },
+      {
+        "date": "2026-01-05",
+        "nav": 1.219,
+        "growthRate": 2.09,
+        "cumulativeGrowth": 4.82
+      },
+      {
+        "date": "2026-01-06",
+        "nav": 1.241,
+        "growthRate": 1.8,
+        "cumulativeGrowth": 6.71
       }
     ],
-    "latestNav": 1.171,
-    "latestDate": "2025-12-19",
-    "totalGrowth": 0.69
+    "latestNav": 1.241,
+    "latestDate": "2026-01-06",
+    "totalGrowth": 6.71
   }
 ]
