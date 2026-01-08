@@ -1,16 +1,18 @@
 name: Deploy to GitHub Pages
 
 on:
-  # 1. 代码推送到 main 分支时触发
+  # 1. 代码推送到 main 分支，且 public 文件夹有变化时触发
   push:
     branches: [main]
+    paths:
+      - 'public/**'  # 监听 public 文件夹下的所有文件
+      # 如果你也需要在 src 代码变更时触发，请把下面这行解开：
+      # - 'src/**' 
+      # - 'package.json'
 
-  # 2. 【新增】手动触发 (方便测试)
+  # 2. 手动触发
   workflow_dispatch:
 
-
-
-# 关键：授予写权限
 permissions:
   contents: write
 
@@ -27,7 +29,6 @@ jobs:
 
       - run: npm ci
       
-      # 假设你的数据获取是在 build 阶段进行的 (SSG 静态生成)
       - run: npm run build
 
       - name: Deploy to GitHub Pages
@@ -35,7 +36,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          # 建议设置 user_name 和 user_email，这样提交记录会更好看
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'Auto deploy: update fund data'
