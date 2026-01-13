@@ -1,188 +1,5 @@
 [
   {
-    "code": "588000",
-    "name": "科创50ETF",
-    "history": [
-      {
-        "date": "2025-12-01",
-        "nav": 1.404,
-        "growthRate": 0,
-        "cumulativeGrowth": 0
-      },
-      {
-        "date": "2025-12-02",
-        "nav": 1.387,
-        "growthRate": -1.21,
-        "cumulativeGrowth": -1.21
-      },
-      {
-        "date": "2025-12-03",
-        "nav": 1.375,
-        "growthRate": -0.87,
-        "cumulativeGrowth": -2.07
-      },
-      {
-        "date": "2025-12-04",
-        "nav": 1.394,
-        "growthRate": 1.38,
-        "cumulativeGrowth": -0.71
-      },
-      {
-        "date": "2025-12-05",
-        "nav": 1.394,
-        "growthRate": 0,
-        "cumulativeGrowth": -0.71
-      },
-      {
-        "date": "2025-12-08",
-        "nav": 1.42,
-        "growthRate": 1.87,
-        "cumulativeGrowth": 1.14
-      },
-      {
-        "date": "2025-12-09",
-        "nav": 1.414,
-        "growthRate": -0.42,
-        "cumulativeGrowth": 0.71
-      },
-      {
-        "date": "2025-12-10",
-        "nav": 1.415,
-        "growthRate": 0.07,
-        "cumulativeGrowth": 0.78
-      },
-      {
-        "date": "2025-12-11",
-        "nav": 1.392,
-        "growthRate": -1.63,
-        "cumulativeGrowth": -0.85
-      },
-      {
-        "date": "2025-12-12",
-        "nav": 1.418,
-        "growthRate": 1.87,
-        "cumulativeGrowth": 1
-      },
-      {
-        "date": "2025-12-15",
-        "nav": 1.389,
-        "growthRate": -2.05,
-        "cumulativeGrowth": -1.07
-      },
-      {
-        "date": "2025-12-16",
-        "nav": 1.361,
-        "growthRate": -2.02,
-        "cumulativeGrowth": -3.06
-      },
-      {
-        "date": "2025-12-17",
-        "nav": 1.396,
-        "growthRate": 2.57,
-        "cumulativeGrowth": -0.57
-      },
-      {
-        "date": "2025-12-18",
-        "nav": 1.376,
-        "growthRate": -1.43,
-        "cumulativeGrowth": -1.99
-      },
-      {
-        "date": "2025-12-19",
-        "nav": 1.38,
-        "growthRate": 0.29,
-        "cumulativeGrowth": -1.71
-      },
-      {
-        "date": "2025-12-22",
-        "nav": 1.405,
-        "growthRate": 1.81,
-        "cumulativeGrowth": 0.07
-      },
-      {
-        "date": "2025-12-23",
-        "nav": 1.41,
-        "growthRate": 0.36,
-        "cumulativeGrowth": 0.43
-      },
-      {
-        "date": "2025-12-24",
-        "nav": 1.423,
-        "growthRate": 0.92,
-        "cumulativeGrowth": 1.35
-      },
-      {
-        "date": "2025-12-25",
-        "nav": 1.422,
-        "growthRate": -0.07,
-        "cumulativeGrowth": 1.28
-      },
-      {
-        "date": "2025-12-26",
-        "nav": 1.419,
-        "growthRate": -0.21,
-        "cumulativeGrowth": 1.07
-      },
-      {
-        "date": "2025-12-29",
-        "nav": 1.417,
-        "growthRate": -0.14,
-        "cumulativeGrowth": 0.93
-      },
-      {
-        "date": "2025-12-30",
-        "nav": 1.433,
-        "growthRate": 1.13,
-        "cumulativeGrowth": 2.07
-      },
-      {
-        "date": "2025-12-31",
-        "nav": 1.417,
-        "growthRate": -1.12,
-        "cumulativeGrowth": 0.93
-      },
-      {
-        "date": "2026-01-05",
-        "nav": 1.479,
-        "growthRate": 4.38,
-        "cumulativeGrowth": 5.34
-      },
-      {
-        "date": "2026-01-06",
-        "nav": 1.505,
-        "growthRate": 1.76,
-        "cumulativeGrowth": 7.19
-      },
-      {
-        "date": "2026-01-07",
-        "nav": 1.52,
-        "growthRate": 1,
-        "cumulativeGrowth": 8.26
-      },
-      {
-        "date": "2026-01-08",
-        "nav": 1.531,
-        "growthRate": 0.72,
-        "cumulativeGrowth": 9.05
-      },
-      {
-        "date": "2026-01-09",
-        "nav": 1.554,
-        "growthRate": 1.5,
-        "cumulativeGrowth": 10.68
-      },
-      {
-        "date": "2026-01-12",
-        "nav": 1.594,
-        "growthRate": 2.57,
-        "cumulativeGrowth": 13.53
-      }
-    ],
-    "latestNav": 1.594,
-    "latestDate": "2026-01-12",
-    "totalGrowth": 13.53
-  },
-  {
     "code": "515980",
     "name": "人工智能ETF",
     "history": [
@@ -359,11 +176,17 @@
         "nav": 1.005,
         "growthRate": 6.8,
         "cumulativeGrowth": 18.79
+      },
+      {
+        "date": "2026-01-13",
+        "nav": 0.97,
+        "growthRate": -3.48,
+        "cumulativeGrowth": 14.66
       }
     ],
-    "latestNav": 1.005,
-    "latestDate": "2026-01-12",
-    "totalGrowth": 18.79
+    "latestNav": 0.97,
+    "latestDate": "2026-01-13",
+    "totalGrowth": 14.66
   },
   {
     "code": "515100",
@@ -542,11 +365,17 @@
         "nav": 1.436,
         "growthRate": 0.21,
         "cumulativeGrowth": -2.58
+      },
+      {
+        "date": "2026-01-13",
+        "nav": 1.437,
+        "growthRate": 0.07,
+        "cumulativeGrowth": -2.51
       }
     ],
-    "latestNav": 1.436,
-    "latestDate": "2026-01-12",
-    "totalGrowth": -2.58
+    "latestNav": 1.437,
+    "latestDate": "2026-01-13",
+    "totalGrowth": -2.51
   },
   {
     "code": "515030",
@@ -725,11 +554,17 @@
         "nav": 1.935,
         "growthRate": 0.26,
         "cumulativeGrowth": 6.67
+      },
+      {
+        "date": "2026-01-13",
+        "nav": 1.93,
+        "growthRate": -0.26,
+        "cumulativeGrowth": 6.39
       }
     ],
-    "latestNav": 1.935,
-    "latestDate": "2026-01-12",
-    "totalGrowth": 6.67
+    "latestNav": 1.93,
+    "latestDate": "2026-01-13",
+    "totalGrowth": 6.39
   },
   {
     "code": "159338",
@@ -908,10 +743,16 @@
         "nav": 1.259,
         "growthRate": 1.04,
         "cumulativeGrowth": 8.25
+      },
+      {
+        "date": "2026-01-13",
+        "nav": 1.25,
+        "growthRate": -0.71,
+        "cumulativeGrowth": 7.48
       }
     ],
-    "latestNav": 1.259,
-    "latestDate": "2026-01-12",
-    "totalGrowth": 8.25
+    "latestNav": 1.25,
+    "latestDate": "2026-01-13",
+    "totalGrowth": 7.48
   }
 ]
